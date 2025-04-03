@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <!-- displays site properly based on user's device -->
 
     <link
@@ -14,51 +15,13 @@
 
     <title>Frontend Mentor | Blog preview card</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      body {
-        background-color: rgb(240, 240, 240);
-      }
-      section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5%;
-      }
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-      .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        max-width: 350px;
-        padding: 10px;
-        border: 2px solid black;
-        border-radius: 10px;
-      }
-      .yellow {
-        background-color: rgb(245, 208, 78);
-        width: 75vw; /* 75% of the viewport width */
-        height: 75vh; /* 75% of the viewport height */
-        display: flex; /* Ensure it doesn't collapse */
-        justify-content: center; /* Center child elements horizontally */
-        align-items: center;
-      }
-    </style>
   </head>
   <body>
     <section>
       <div class="yellow">
         <div class="container">
           <img src="./assets/images/illustration-article.svg" alt="" />
+          <tag class="tag">Learning</tag>
         </div>
       </div>
     </section>
