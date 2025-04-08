@@ -6,9 +6,9 @@
 }
 
 body {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(245, 208, 78);
     font-family: 'Figtree', sans-serif;
-}
+}   
 section {
     display: flex;
     flex-direction: column;
@@ -16,6 +16,14 @@ section {
     align-items: center;
     margin-top: 5%;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+
+}
+
 img {
     border-radius: 10px;
 }
@@ -42,19 +50,6 @@ img {
     box-shadow: 5px 5px;
 }
 
-.yellow {
-    background-color: rgb(245, 208, 78);
-    width: 75vw;
-    /* 75% of the viewport width */
-    height: 75vh;
-    /* 75% of the viewport height */
-    display: flex;
-    /* Ensure it doesn't collapse */
-    justify-content: center;
-    /* Center child elements horizontally */
-    align-items: center;
-}
-
 .tag {
     align-self: flex-start;
     margin-top: 20px;
@@ -63,4 +58,40 @@ img {
     font-size: small;
     font-weight: 900;
     border-radius: 5px;
+}
+
+p {
+    align-self: flex-start;
+    font-size: small;
+}
+
+h1 {
+    align-self: flex-start;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.description {
+    color: grey;
+}
+
+.avatar {
+    align-self: flex-start;
+    max-width: 35px;
+    gap: 10px;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    gap: 10px;
+    max-width: 300px;
+
+}
+
+.name {
+    font-weight: 900;
+    font-size: small;
+    margin-top: 10px;
 }
